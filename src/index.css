@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +13,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.section{
+  background-image: url('./image/hero_images.webp');
+  height:fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color: rgb(99 99 99 / 78%);
+}
+
